@@ -59,15 +59,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _bot_ (sin prefijo)
 
 
- _*< SUB-BOTS />*_
+ _*< lista de versus />*_
 
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-  ▢
+  ▢ _${usedPrefix}listavs
+
+  _*< PERMISOS />*_
+  
+  
   ▢ _${usedPrefix}enable restrict_
   ▢ _${usedPrefix}disable restrict_
   ▢ _${usedPrefix}enable autoread_

@@ -1,32 +1,11 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*🚀 -----[ Cafirexos]------- 🚀*
-  
- *Hola a todos 👋🏻 ¡Estamos emocionados de anunciar nuestra nueva colaboración con Cafirexos  🤖 Ahora ya pueden tener su propio bot de THE-MYSTIC-BOT-MD en su plataforma en línea, permitiendo  que tus bots estén activos las 24/7. 💻*
-
-_La instalación de estas versiones ha sido aprobada y ya está en pleno funcionamiento. Además, *los servidores son totalmente compatibles, lo que te permite elegir el tipo de inicio del bot según tus necesidades.* ¡Prepárate para una experiencia de usuario ininterrumpida y emocionante!_ 
-
-*Página oficial:*
-https://www.cafirexos.com/
-
-*Dashboard:*
-https://dash.cafirexos.com
-
-*Panel:*
-https://panel.cafirexos.com
+  const text = `*🚀 -----[ Aleizn]------- 🚀*
 
 *WhatsApp*
-https://wa.me/50497150165
++51992621601
 
-*Correo electrónico*
-contacto@cafirexos.com
-
-*Canal de WhatsApp*
-https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
-
-*¿Dudas? (UNICAMENTE SOBRE EL HOST):*
-https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
 `.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
